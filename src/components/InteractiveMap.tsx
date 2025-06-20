@@ -8,17 +8,25 @@ interface InteractiveMapProps {
 
 export const InteractiveMap: React.FC<InteractiveMapProps> = ({ onCountryClick, selectedCountry }) => {
   const countries = [
-    { name: 'México', path: 'M150,50 L200,60 L190,90 L140,80 Z', center: { x: 170, y: 70 } },
-    { name: 'Cuba', path: 'M220,80 L260,85 L255,95 L215,90 Z', center: { x: 240, y: 87 } },
-    { name: 'Venezuela', path: 'M250,120 L300,130 L290,160 L240,150 Z', center: { x: 270, y: 140 } },
-    { name: 'Brasil', path: 'M300,150 L400,160 L420,280 L380,300 L320,250 Z', center: { x: 360, y: 220 } },
-    { name: 'Perú', path: 'M250,180 L300,190 L290,240 L240,230 Z', center: { x: 270, y: 210 } },
+    { name: 'México', path: 'M115,10 L190,70 L190,90 L140,80 Z', center: { x: 150, y: 70 } },
+    { name: 'Cuba', path: 'M200,20 L260,45 L245,65 L200,40 Z', center: { x: 230, y: 45 } },
+    { name: 'Venezuela', path: 'M240,70 L310,80 L300,130 L250,100 Z', center: { x: 290, y: 100 } },
+    { name: 'Brasil', path: 'M280,130 L400,140 L420,170 L330,300 L320,250 Z', center: { x: 360, y: 220 } },
+    { name: 'Perú', path: 'M220,140 L300,200 L290,220 L240,210 Z', center: { x: 260, y: 200 } },
     { name: 'Bolivia', path: 'M280,220 L330,230 L320,270 L270,260 Z', center: { x: 300, y: 245 } },
-    { name: 'Argentina', path: 'M300,280 L350,290 L360,380 L310,370 Z', center: { x: 330, y: 330 } }
+    { name: 'Argentina', path: 'M270,260 L300,280 L300,380 L270,360 Z', center: { x: 290, y: 330 } }
   ];
 
   return (
-    <div className="flex justify-center items-center w-full h-full">
+    <div
+      className="flex justify-center items-center w-full h-full"
+      style={{
+        backgroundImage: "url('/ImagenesAutores/MapaLatinoamerica.jpg')",
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center"
+      }}
+    >
       <svg
         viewBox="0 0 500 400"
         className="w-full max-w-2xl h-auto"
