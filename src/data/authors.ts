@@ -143,7 +143,7 @@ export const authors: Author[] = [
     keyPhrase: "Ser culto es el único modo de ser libre. (Expresa su convicción de que el conocimiento es esencial para la emancipación individual y colectiva.)",
     concept: "La educación como herramienta de emancipación, formación ética y construcción de ciudadanía activa y consciente.",
     image: '/ImagenesAutores/José Martí.png',
-    videoUrl: "https://www.youtube.com/watch?v=PpESi8KC3YU&list=RDPpESi8KC3YU&start_radio=1"
+    videoUrl: "https://www.youtube.com/watch?v=raaWcsCHWCs"
   },
   {
     id: "vasconcelos",
