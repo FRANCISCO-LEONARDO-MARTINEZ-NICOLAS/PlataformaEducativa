@@ -35,7 +35,7 @@ export const authors: Author[] = [
     keyPhrase: "Vivir es una condición atávica condicionada por milenios de vida de la humanidad, pero que no conocemos.(Una reflexión sobre la profundidad existencial del ser humano desde una perspectiva no occidental.)",
     concept: "Pensamiento indígena y popular como alternativa a la racionalidad occidental, reivindicando formas de vida, saber y existencia propias de América Latina.",
     image: '/ImagenesAutores/Rodolfo Kusch.png',
-    videoUrl: "https://vt.tiktok.com/ZSkcAAdct/"
+    videoUrl: "https://vt.tiktok.com/ZSkcuUee1/"
   },
   {
     id: "sarmiento",
@@ -151,8 +151,8 @@ export const authors: Author[] = [
     country: "México",
     birth: "1882",
     death: "1959",
-    mainContribution: "Promotor de la educación pública en México tras la Revolución Mexicana; impulsó una campaña masiva de alfabetización y fundó la Secretaría de Educación Pública (SEP) en 1921. Por mi raza hablará el espíritu. (Lema de la Universidad Nacional Autónoma de México, que refleja su visión de una identidad cultural mestiza y espiritual para América Latina.)",
-    keyPhrase: "Por mi raza hablará el espíritu.",
+    mainContribution: "Promotor de la educación pública en México tras la Revolución Mexicana; impulsó una campaña masiva de alfabetización y fundó la Secretaría de Educación Pública (SEP) en 1921.",
+    keyPhrase: "Por mi raza hablará el espíritu. (Lema de la Universidad Nacional Autónoma de México, que refleja su visión de una identidad cultural mestiza y espiritual para América Latina.)",
     concept: "Educación humanista e integradora, que revaloriza la identidad cultural latinoamericana.",
     image: '/ImagenesAutores/José vasconcelos.jpg',
     videoUrl: "https://youtu.be/4WhFpVywbe4?si=GRBf8qP-q_jv8Ko5"
@@ -194,5 +194,6 @@ export const countryFlags: Record<string, string> = {
   "Cuba": "🇨🇺",
   "México": "🇲🇽",
   "Perú": "🇵🇪",
-  "Venezuela": "🇻🇪"
+  "Venezuela": "🇻🇪",
+  "Uruguay": "🇺🇾"
 };
