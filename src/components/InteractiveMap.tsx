@@ -14,7 +14,8 @@ export const InteractiveMap: React.FC<InteractiveMapProps> = ({ onCountryClick, 
     { name: 'Brasil', path: 'M280,130 L400,140 L420,170 L330,300 L320,250 Z', center: { x: 360, y: 220 } },
     { name: 'Perú', path: 'M220,140 L300,200 L290,220 L240,210 Z', center: { x: 260, y: 200 } },
     { name: 'Bolivia', path: 'M280,220 L330,230 L320,270 L270,260 Z', center: { x: 300, y: 245 } },
-    { name: 'Argentina', path: 'M270,260 L300,280 L300,380 L270,360 Z', center: { x: 290, y: 330 } }
+    { name: 'Argentina', path: 'M270,260 L300,280 L300,380 L270,360 Z', center: { x: 290, y: 330 } },
+    { name: 'Uruguay', path: 'M300,280 L327,280 330,300 L300,300 Z', center: { x: 310, y: 290 } }
   ];
 
   return (
