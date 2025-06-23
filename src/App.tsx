@@ -179,6 +179,9 @@ function App() {
           <p className="font-exo">
             Plataforma educativa interactiva • {new Date().getFullYear()}
           </p>
+          <p className="font-exo">
+            Pensamiento pedagógico latinoamericano
+          </p>
           <motion.div
             className="flex justify-center space-x-4 mt-4"
             initial={{ opacity: 0, y: 20 }}
